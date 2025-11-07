@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>จองห้องพัก - โรงแรมของเรา</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h1><a href="index.html" class="logo">LuxuryStay Hotel</a></h1>
+    <ul class="nav-links">
+      <li><a href="index.html">หน้าแรก</a></li>
+      <li><a href="rooms.html">ห้องพัก</a></li>
+      <li><a href="booking.html">ติดต่อเรา</a></li>
+    </ul>
+  </nav>
+  
+  <h1>จองห้องพัก</h1>
+
+  <form id="bookingForm">
+    <input type="text" id="name" placeholder="ชื่อ-นามสกุล" required><br>
+    <input type="email" id="email" placeholder="อีเมล" required><br>
+    <input type="date" id="checkin" required><br>
+    <input type="date" id="checkout" required><br>
+    <select id="roomType">
+      <option>Standard Room</option>
+      <option>Deluxe Room</option>
+      <option>Suite Room</option>
+    </select><br><br>
+    <button type="submit">จองตอนนี้</button>
+  </form>
+
+  <script src="js/booking.js"></script>
+</body>
+</html>
