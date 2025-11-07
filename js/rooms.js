@@ -8,17 +8,17 @@ const bookBtn = document.querySelector(".modal-content .btn");
 const roomData = {
   deluxe: {
     title: "Deluxe Room",
-    img: "/photo/Deluxe-room2.jpg",
+    img: "../photo/Deluxe-room2.jpg",
     desc: "ห้องดีลักซ์สุดหรู พร้อมเตียงคิงไซส์และวิวสวนสวย เหมาะสำหรับคู่รักหรือผู้ที่ต้องการพักผ่อนแบบส่วนตัว"
   },
   suite: {
     title: "Suite Room",
-    img: "/photo/Suite-room2.jpg",
+    img: "../photo/Suite-room2.jpg",
     desc: "ห้องสวีทขนาดกว้างขวาง พร้อมห้องนั่งเล่นแยกส่วนและวิวเมืองหลวงจากระเบียงส่วนตัว"
   },
   villa: {
     title: "Pool Villa",
-    img: "/photo/Villa-room2.jpg",
+    img: "../photo/Villa-room2.jpg",
     desc: "พูลวิลล่าส่วนตัวพร้อมสระน้ำในห้อง และบริการบัตเลอร์ส่วนตัวเพื่อความสะดวกสบายสูงสุด"
   }
 };
